@@ -1,4 +1,6 @@
 
+# https://www.codechef.com/JAN18/problems/KCON/
+
 def kadanes_algo(arr):
 
     dparr = [0]*len(arr)
