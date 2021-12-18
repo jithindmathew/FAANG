@@ -1,7 +1,6 @@
 
 # https://www.geeksforgeeks.org/maximum-contiguous-circular-sum/
 
-
 def kadanes_algo(arr):
     glo_max = curr_max = arr[0]
 
@@ -19,3 +18,5 @@ def main():
 
 
 main()
+
+# DONE

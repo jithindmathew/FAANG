@@ -10,7 +10,7 @@ def solve(arr):
         summ -= arr[i]
 
         if left == summ:
-            return i
+            return ["Index", i, "Element", arr[i]]
 
         left += arr[i]
 
@@ -18,9 +18,11 @@ def solve(arr):
 
 
 def main():
-    arr = [-7, 1, 5, 2, -4, 3, 0]
+    arr = [-2, -4, 5, 9, 0, -1, 10, 4, -5]
 
     print(solve(arr))
 
 
 main()
+
+# DONE
