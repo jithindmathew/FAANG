@@ -1,5 +1,5 @@
 
-# https://www.geeksforgeeks.org/majority-element/#
+# https://www.geeksforgeeks.org/majority-element/
 
 def solve(arr):
     n = len(arr)
