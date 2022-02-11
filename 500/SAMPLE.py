@@ -1,14 +1,12 @@
-def gcd(a, b):
-    if a == 0:
-        return b
-    return gcd(b % a, a)
+def solve():
+    pass
 
 
-def gcd2(a, b):
-    if a == 0:
-        return b
-    return gcd2(b % a, a)
+def main():
+    a = 'xyz'
 
-# print(gcd(28, 12))
+    print(ord('b' - 'a'))
 
-print(gcd2(24*79, 24*50))
+
+if __name__ == '__main__':
+    main()

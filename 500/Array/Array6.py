@@ -5,8 +5,7 @@ def zigzag(arr):
 
     flag = True
 
-    for i in range(len(arr) - 1):
-
+    #for i in range(len(arr) - 1):
 
 
 def solve(arr):

@@ -22,7 +22,8 @@ def solve(words):
 
 
 def main():
-    words = ['may', 'student', 'students', 'dog', 'studentssess', 'god', 'cat', 'act', 'tab', 'bat', 'flow', 'wolf', 'lambs', 'amy', 'yam', 'balms', 'looped', 'poodle']
+    words = ['may', 'student', 'students', 'dog', 'studentssess', 'god', 'cat', 'act', 'tab', 'bat', 'flow', 'wolf',
+             'lambs', 'amy', 'yam', 'balms', 'looped', 'poodle']
 
     solve(words)
 
